@@ -18,7 +18,7 @@ nav{
     text-align: center;
   position: relative;
   left: -220px;
-  transition: 1s;
+  transition: 1.5s;
 
 }
 .nav-header{
@@ -29,14 +29,14 @@ nav{
 
 }
 
-#ang-left, #ang-right{
+ #ang-right{
 position: absolute;
 right: 5px;
 top: 0;
 font-size: 30px;
 font-weight: 900;
 color: white;
-transition: rotate 0.5s;
+transition: 2s;
 }
 #ang-left{
     display: none;
@@ -67,6 +67,5 @@ nav:hover {
    left:0;
 }
 nav:hover #ang-right {
-    transition: 1s;
    transform: rotate(-180deg);
 }
